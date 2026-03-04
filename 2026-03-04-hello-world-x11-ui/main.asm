@@ -1,4 +1,4 @@
-; Build with: nasm -f elf64 -g main.nasm && ld main.o -static -o main
+; Build with: nasm -f elf64 -g main.asm && ld main.o -static -o main
 
 BITS 64 ; 64 bits.
 CPU X64 ; Target the x86_64 family of CPUs.
