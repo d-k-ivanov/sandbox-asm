@@ -2,9 +2,9 @@
 ; main.asm
 ;
 ; To assemble to .obj:
-;     nasm -fwin64 main.asm -o main.obj
+;     nasm -f win64 main1.asm -o main1.obj
 ; To compile to .exe:
-;     link main.obj /subsystem:console /entry:main /out:main.exe kernel32.lib legacy_stdio_definitions.lib  msvcrt.lib
+;     link main1.obj /out:main1.exe /entry:main /subsystem:console kernel32.lib legacy_stdio_definitions.lib  msvcrt.lib
 ; ------------------------------------------------------------------
 
 bits 64
