@@ -1,0 +1,8 @@
+.vs/
+.vscode/
+.idea/
+
+*.exe
+*.obj
+*.asm
+a.out
